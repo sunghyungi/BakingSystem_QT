@@ -35,6 +35,7 @@ HEADERS += \
     withdraw.h
 
 FORMS += \
+    CreateAccount.ui \
     createaccount.ui \
     deposit.ui \
     inquiryaccount.ui \
