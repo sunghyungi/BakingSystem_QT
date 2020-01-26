@@ -31,8 +31,6 @@ private slots:
 
     void on_btn_Remittance_clicked();
 
-    void on_btn_dbconnect_clicked();
-
 private:
     Ui::MainWindow *ui;
 };

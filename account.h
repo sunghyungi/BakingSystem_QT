@@ -23,11 +23,13 @@ private:
 public:
     QSqlDatabase db;
     Account(int num, int pass, char* name, char* birth, int money);
+    Account();
     void CreateAcc();
-    void InquiryAcc();
+    QSqlQuery InquiryAcc();
     void Deposit();
     void Withdraw();
-
+    void Remittance(int yourNum);
+    ~Account();
 };
 
 #endif // ACCOUNT_H

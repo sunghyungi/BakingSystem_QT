@@ -2,6 +2,7 @@
 #define REMITTANCE_H
 
 #include <QWidget>
+#include "account.h"
 
 namespace Ui {
 class Remittance;
@@ -17,6 +18,8 @@ public:
 
 private slots:
     void on_btn_ExitRemittance_clicked();
+
+    void on_btn_Withdraw_clicked();
 
 private:
     Ui::Remittance *ui;

@@ -58,8 +58,3 @@ void MainWindow::on_btn_Remittance_clicked()
     remittance = new Remittance();
     remittance->show();
 }
-
-void MainWindow::on_btn_dbconnect_clicked()
-{
-
-}

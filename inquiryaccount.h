@@ -2,6 +2,9 @@
 #define INQUIRYACCOUNT_H
 
 #include <QWidget>
+#include "account.h"
+#include <QtSql>
+#include <QSqlDatabase>
 
 namespace Ui {
 class InquiryAccount;
@@ -17,6 +20,8 @@ public:
 
 private slots:
     void on_btn_ExitInquiry_clicked();
+
+    void on_btn_Inquiry_clicked();
 
 private:
     Ui::InquiryAccount *ui;
